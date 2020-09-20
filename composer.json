@@ -1,15 +1,15 @@
 {
 	"description" : "The CodeIgniter Application with Composer",
 	"require": {
-		"php": ">=7.1",
+		"php": ">=7.4",
 		"rakit/validation": "^1.4",
 		"jenssegers/blade": "^1.4",
 		"illuminate/database": "^8.5",
 		"illuminate/http": "^8.5",
-		"illuminate/validation": "^8.5",
       "ext-json": "*",
 		"illuminate/routing": "^8.5",
-		"nette/robot-loader": "^3.3"
+		"nette/robot-loader": "^3.3",
+		"illuminate/contracts": "^8.5"
     },
 	"require-dev": {
 		"mikey179/vfsStream": "1.1.*"
