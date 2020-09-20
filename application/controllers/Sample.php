@@ -5,6 +5,6 @@ class Sample extends \CI_Controller {
 
     public function index()
     {
-        json(["s"]);
+        view("sample",["msg"=>"s"]);
     }
 }

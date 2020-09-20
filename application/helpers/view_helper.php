@@ -4,7 +4,7 @@ use Jenssegers\Blade\Blade;
 
 function view(string $view,array $data = []){
     $path = APPPATH."views";
-    $blade = new Blade($path,$path."/cache");
+    $blade = new Blade($path,APPPATH."/cache");
     echo $blade->make($view,$data);
 }
 
